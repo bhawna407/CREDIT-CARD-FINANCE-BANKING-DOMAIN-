@@ -62,3 +62,20 @@ Metro cities contribute significantly higher average spend
 Bills and groceries dominate spend categories, indicating strong recurring usage potential
 
 Credit cards already account for high payment share, validating product readiness
+
+
+💳 Recommended Credit Card Features (Data-Driven)
+
+Higher rewards on Bills & Groceries to encourage frequent, recurring usage
+
+Lifestyle & Travel benefits aligned with discretionary spend patterns
+
+Income-linked credit limits based on observed utilization behavior
+
+Metro-focused launch offers targeting high-spend cities
+
+Easy EMI options for electronics and bill payments
+
+📌 Conclusion
+
+The pre-launch analysis indicates strong readiness for a credit card rollout, with 4,000 total customers, an average income of ₹51,657, and an average spend of ₹614, resulting in a healthy income utilization of 42%. Credit cards already account for 92.36% of total payment usage, led by high-value spend categories such as Bills (₹10.49 Cr) and Groceries (₹8.63 Cr). Metro cities and salaried IT professionals emerge as the most promising segments, making them the primary focus for a successful and targeted credit card launch.
