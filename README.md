@@ -3,6 +3,8 @@
 
 This project focuses on pre-launch analysis of a credit card product for Mitron Bank using Excel. The objective is to understand customer behavior, spending patterns, income utilization, and key demographic segments to support top management decision-making before launching the credit card.
 
+![Dashboard Preview](https://github.com/bhawna407/CREDIT-CARD-FINANCE-BANKING-DOMAIN-/blob/main/Screenshot%20(1396).png)
+
 🎯 Business Objective
 
 Identify high-potential customer segments for credit card adoption
