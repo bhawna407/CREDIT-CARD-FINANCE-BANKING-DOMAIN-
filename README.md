@@ -34,27 +34,15 @@ ARPU Equivalent (Spend per User) – Avg monthly spend per customer
 
 (Links section placeholder — to be added while publishing)
 
-2. Data Structure & Initial Checks
+2.** Data Structure & Initial Checks**
 Data Tables Used
 Table Name	Description
-Customers Table	Customer demographics & income
-Spend Table	Monthly spend & category data
-Demographics	Age, gender, city, occupation mapping
-Data Model
-
-One-to-Many Relationship
-
-Customers → Spend
-
-Key joins based on Customer ID
-
-Data Size
+Customers Table
+Spend Table
 
 Total Records: ~4,000 customers
 
-Time Period: Monthly data
-
-Categories Covered: Bills, Electronics, Groceries, Travel, Health & Wellness
+![Dashboard](https://github.com/bhawna407/CREDIT-CARD-FINANCE-BANKING-DOMAIN-/blob/main/Screenshot%20(1419).png)
 
 Initial Data Checks Performed
 
@@ -64,10 +52,12 @@ Duplicate customer ID checks
 
 Outlier review for income & spend
 
-Data type standardization
+Data type standardisation
 
 3. Executive Summary
 Overview of Findings
+
+![Dashboard](https://github.com/bhawna407/CREDIT-CARD-FINANCE-BANKING-DOMAIN-/blob/main/Screenshot%20(1396).png)
 
 The analysis indicates that Mitron Bank’s potential credit card launch is well-timed and strategically viable.
 Customer income utilization remains moderate at ~42%, indicating financial headroom for credit expansion.
@@ -77,7 +67,7 @@ Overall, the data support a controlled but opportunity-rich credit card rollout 
 
 📌 Dashboard Snapshot
 
-(Insert Dashboard Image Here)
+https://github.com/bhawna407/CREDIT-CARD-FINANCE-BANKING-DOMAIN-/blob/main/Screenshot%20(1396).png
 
 Detailed Analysis & Insights
 1. Age Group-Based Credit Card Potential
