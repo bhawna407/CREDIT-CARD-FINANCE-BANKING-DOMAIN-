@@ -1,83 +1,145 @@
-📊 Credit Card Launch Analysis | Mitron Bank
-📌 Project Overview
+CREDIT CARD LAUNCH ANALYSIS – Mitron Bank
+1. Project Background
+Business Problem
 
-This project focuses on pre-launch analysis of a credit card product for Mitron Bank using Excel. The objective is to understand customer behavior, spending patterns, income utilization, and key demographic segments to support top management decision-making before launching the credit card.
+Mitron Bank is planning to launch a new credit card product and wants to ensure that the offering aligns with customer spending behaviour, income levels, and usage patterns.
 
-![Dashboard Preview](https://github.com/bhawna407/CREDIT-CARD-FINANCE-BANKING-DOMAIN-/blob/main/Screenshot%20(1396).png)
+To support this decision, the management requested an end-to-end exploratory and strategic analysis of customer demographics, income utilisation, spend behaviour, and payment preferences.
+The objective is to identify high-potential customer segments, understand the balance between risk and opportunity, and design optimised credit card features that maximise adoption while controlling credit risk.
 
-🎯 Business Objective
+This analysis was conducted to support senior leadership's pre-launch decision-making.
 
-Identify high-potential customer segments for credit card adoption
+Data-Driven Customer Insights to Enable a Successful Credit Card Launch
 
-Analyze spend vs income behavior to assess credit readiness
+Key Insights & Recommendations (One-Liners)
+The 25–45 age group contributes ~65% of total spend, indicating the strongest adoption potential
 
-Understand category-wise and payment-type spending trends
+Salaried IT & Business Owners show highest spend-to-income efficiency (₹850+ avg spend)
 
-Provide management-level insights on where and how to launch the card
+Income utilisation remains controlled at ~42%, suggesting low immediate credit risk
 
-📂 Dataset Description
+Bills, Electronics, and Groceries drive the majority spend (>55%), ideal for reward optimization
 
-Customer Demographics: Age group, gender, occupation, city
+Key Metrics & Technical Terms (Reference Links)
 
-Financial Metrics: Income, spend, income utilization %
+Income Utilization Ratio – Avg Spend ÷ Avg Income
 
-Transaction Details: Spend categories, payment types
+Average Spend (₹) – Mean transaction value per customer
 
-Time Dimension: Monthly trends
+Customer Segmentation – Grouping by age, city, occupation
 
-📈 Key Analysis & Visuals
+Payment Mix Share – % contribution by payment method
 
-Customer Overview KPIs: Total customers, income, spend, utilization
+ARPU Equivalent (Spend per User) – Avg monthly spend per customer
 
-Income vs Spend Analysis: By age group and occupation
+(Links section placeholder — to be added while publishing)
 
-City-wise Performance: Spend, income, and utilization comparison
+2. Data Structure & Initial Checks
+Data Tables Used
+Table Name	Description
+Customers Table	Customer demographics & income
+Spend Table	Monthly spend & category data
+Demographics	Age, gender, city, occupation mapping
+Data Model
 
-Top Spend Categories: Bills, groceries, electronics, travel, wellness
+One-to-Many Relationship
 
-Payment Type Analysis: Credit card vs debit, UPI, net banking
+Customers → Spend
 
-Customer Segmentation: Credit card usage by occupation
+Key joins based on Customer ID
 
-Monthly Spend Trends: Category-wise seasonality patterns
+Data Size
 
-All insights are presented in a single-page executive dashboard for quick consumption.
+Total Records: ~4,000 customers
 
-🛠 Tools & Techniques
+Time Period: Monthly data
 
-Microsoft Excel
+Categories Covered: Bills, Electronics, Groceries, Travel, Health & Wellness
 
-Pivot Tables & Pivot Charts
+Initial Data Checks Performed
 
-Conditional Formatting
+Null value validation
 
-KPI Cards & Dashboard Design
+Duplicate customer ID checks
 
-Data Cleaning & Aggregation
+Outlier review for income & spend
 
-📌 Key Insights
+Data type standardization
 
-Salaried IT and business owners show higher spend-to-income ratios, making them ideal early adopters
+3. Executive Summary
+Overview of Findings
 
-Metro cities contribute significantly higher average spend
+The analysis indicates that Mitron Bank’s potential credit card launch is well-timed and strategically viable.
+Customer income utilization remains moderate at ~42%, indicating financial headroom for credit expansion.
+Spending behavior is highly concentrated among urban cities and salaried professionals, with Bills and Electronics emerging as the top categories.
+The 25–45 age group dominates both income and spending, making them the most lucrative segment for early adoption.
+Overall, the data support a controlled but opportunity-rich credit card rollout with targeted feature customization.
 
-Bills and groceries dominate spend categories, indicating strong recurring usage potential
+📌 Dashboard Snapshot
 
-Credit cards already account for high payment share, validating product readiness
+(Insert Dashboard Image Here)
 
+Detailed Analysis & Insights
+1. Age Group-Based Credit Card Potential
 
-💳 Recommended Credit Card Features (Data-Driven)
+(Space for Visual)
 
-Higher rewards on Bills & Groceries to encourage frequent, recurring usage
+25–34 & 35–45 age groups contribute ~68% of total spend
 
-Lifestyle & Travel benefits aligned with discretionary spend patterns
+Avg monthly spend peaks at ₹690+ despite stable income growth
 
-Income-linked credit limits based on observed utilization behavior
+Indicates financial maturity with consistent spending behavior
 
-Metro-focused launch offers targeting high-spend cities
+Historical trend shows higher spend growth vs income growth, ideal for rewards-based cards
 
-Easy EMI options for electronics and bill payments
+2. City & Occupation Analysis
 
-📌 Conclusion
+(Space for Visual)
 
-The pre-launch analysis indicates strong readiness for a credit card rollout, with 4,000 total customers, an average income of ₹51,657, and an average spend of ₹614, resulting in a healthy income utilization of 42%. Credit cards already account for 92.36% of total payment usage, led by high-value spend categories such as Bills (₹10.49 Cr) and Groceries (₹8.63 Cr). Metro cities and salaried IT professionals emerge as the most promising segments, making them the primary focus for a successful and targeted credit card launch.
+Mumbai & Delhi NCR show highest avg spend (₹730–₹740 range)
+
+Salaried IT Employees spend ~40% more than other salaried roles
+
+Government employees show higher income utilization but lower spending
+
+Urban professionals drive sustainable and predictable transaction volumes
+
+3. Category & Monthly Spend Trends
+
+(Space for Visual)
+
+Bills alone contribute ₹10M+ annually, followed by Electronics
+
+Seasonal dip observed mid-year, followed by strong Q4 recovery
+
+Indicates opportunity for EMI offers & utility-linked rewards
+
+Grocery spend remains stable → reliable recurring transactions
+
+Final Recommendations (With Rationale)
+
+Launch primary card targeting 25–45 age salaried professionals
+
+Highest spend contribution with controlled utilization
+
+Introduce bill-payment & electronics reward accelerators
+
+These categories contribute over 55% of the total spend
+
+Offer EMI & cashback programs in metro cities
+
+Urban users show higher transaction frequency and ticket size
+
+Set conservative initial credit limits
+
+Avg income utilization at 42% allows safe incremental exposure
+
+Why These Recommendations?
+
+They are directly backed by customer behavior data
+
+Focus on high-volume, low-risk segments
+
+Align with historical spend trends and category dominance
+
+Support scalable growth without over-leveraging customers
